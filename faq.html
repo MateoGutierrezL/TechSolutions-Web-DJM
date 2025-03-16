@@ -8,24 +8,46 @@
 </head>
 <body>
 
-    <p><a href="index.html">Volver al Inicio</a></p>
+    <header>
+        <h1>❓ Preguntas Frecuentes (FAQ)</h1>
+        <p>Encuentra respuestas a las dudas más comunes sobre nuestros servicios.</p>
+    </header>
 
-    <h2>Preguntas Frecuentes (FAQ)</h2>
+    <section class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">📌 ¿Cómo puedo registrarme en la plataforma? ⮟</button>
+            <div class="faq-answer">Para registrarte, haz clic en "Crear Cuenta", completa el formulario y verifica tu correo electrónico.</div>
+        </div>
 
-    <div class="faq">
-        <p class="pregunta">❓ ¿Cómo puedo registrarme?</p>
-        <p class="respuesta">Haz clic en "Crear Cuenta", completa el formulario y verifica tu email.</p>
-    </div>
+        <div class="faq-item">
+            <button class="faq-question">💳 ¿Cuáles son los métodos de pago disponibles? ⮟</button>
+            <div class="faq-answer">Aceptamos tarjetas de crédito, PayPal y transferencias bancarias.</div>
+        </div>
 
-    <div class="faq">
-        <p class="pregunta">❓ ¿Cuáles son los métodos de pago?</p>
-        <p class="respuesta">Aceptamos tarjetas de crédito, PayPal y transferencias bancarias.</p>
-    </div>
+        <div class="faq-item">
+            <button class="faq-question">🛠 ¿Cómo contacto con soporte técnico? ⮟</button>
+            <div class="faq-answer">Puedes contactarnos a través del chat en vivo o enviando un correo a soporte@empresa.com.</div>
+        </div>
 
-    <div class="faq">
-        <p class="pregunta">❓ ¿Cómo contacto con soporte técnico?</p>
-        <p class="respuesta">Puedes enviarnos un correo a soporte@empresa.com.</p>
-    </div>
+        <div class="faq-item">
+            <button class="faq-question">🔄 ¿Cómo solicito un reembolso? ⮟</button>
+            <div class="faq-answer">Para solicitar un reembolso, revisa nuestra política de devoluciones y envía tu solicitud a finanzas@empresa.com.</div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="index.html" class="btn-volver">⬅ Volver al Inicio</a>
+    </footer>
+
+    <script>
+        // Código para mostrar y ocultar respuestas
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+            });
+        });
+    </script>
 
 </body>
 </html>
