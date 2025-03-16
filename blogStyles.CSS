@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor de artículos */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Diseño de las tarjetas de artículos */
+.articulo {
+    background: white;
+    max-width: 300px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.articulo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Imágenes dentro de las tarjetas */
+.articulo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Títulos de los artículos */
+.articulo h3 {
+    color: #007bff;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Párrafos de los artículos */
+.articulo p {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+/* Botón de "Leer más" */
+.articulo a {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.articulo a:hover {
+    background: #0056b3;
+}
+
+/* Botón de volver */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.btn-volver {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-volver:hover {
+    background: #0056b3;
+}
