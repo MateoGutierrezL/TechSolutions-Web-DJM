@@ -1,0 +1,124 @@
+/* Estilos generales para la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e7eff6; /* Fondo más suave y cálido */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #1d3557; /* Azul oscuro para el título */
+    font-size: 42px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo del menú horizontal */
+nav {
+    background-color: #1d3557; /* Azul oscuro para el menú */
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alineación en línea */
+    justify-content: center; /* Centrado de los elementos */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espacio entre los elementos */
+}
+
+nav a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease; /* Efecto suave de transición */
+}
+
+nav a:hover {
+    background-color: #457b9d; /* Color azul más claro en hover */
+    transform: scale(1.05); /* Ligero efecto de aumento en hover */
+}
+
+/* Estilo de los párrafos */
+p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #4a4a4a;
+    margin: 0 20px 30px 20px;
+}
+
+/* Estilo para los enlaces dentro de los párrafos */
+p a {
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #457b9d; /* Cambia de color al pasar el mouse */
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block;
+    margin: 30px auto;
+    width: 75%; /* Ajusta el tamaño de la imagen */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los enlaces en los apartados (páginas internas) */
+p a {
+    display: inline-block;
+    margin: 12px;
+    padding: 12px 18px;
+    background-color: #a8dadc; /* Fondo más claro para los enlaces */
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+p a:hover {
+    background-color: #457b9d;
+    color: white;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d3557;
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+
+
